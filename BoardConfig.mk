@@ -27,6 +27,7 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 # Kernel
 TARGET_KERNEL_CONFIG := f400_defconfig
 TARGET_REQUIRES_BUMP := true
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.x/bin
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
